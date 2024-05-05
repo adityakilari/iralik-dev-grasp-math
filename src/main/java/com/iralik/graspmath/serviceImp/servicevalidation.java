@@ -2,10 +2,11 @@ package com.iralik.graspmath.serviceImp;
 
 import com.iralik.graspmath.dto.registrationdto;
 
-import java.util.List;
 
+
+//TODo need to restructure
 public class servicevalidation {
-
+// git check
     public String regitrationerror(registrationdto registrationdto){
         String error = "";
 

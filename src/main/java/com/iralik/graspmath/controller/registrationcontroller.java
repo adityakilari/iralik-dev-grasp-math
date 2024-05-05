@@ -20,8 +20,6 @@ import java.util.List;
 public class registrationcontroller {
     @Autowired
     private registrationservice registrationservice;
-
-
     @PostMapping(value = "/program_registration", produces = "application/json")
     public ResponseEntity<String> registration(@RequestBody registrationdto  registrationdto) throws GMcustomException {
            List<String> response =  registrationservice.studentprogramregistration(registrationdto);
