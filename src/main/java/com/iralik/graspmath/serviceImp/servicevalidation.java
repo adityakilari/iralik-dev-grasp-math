@@ -6,7 +6,7 @@ import com.iralik.graspmath.dto.registrationdto;
 
 //TODo need to restructure
 public class servicevalidation {
-
+// git check
     public String regitrationerror(registrationdto registrationdto){
         String error = "";
 
